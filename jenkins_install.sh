@@ -2,6 +2,7 @@
 
 sudo yum update -y;
 sudo yum install mc -y;
+sudo yum install wget -y;
 
 #Java
 sudo yum install java-1.8.0-openjdk -y;
