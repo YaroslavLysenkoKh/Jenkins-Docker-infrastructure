@@ -4,6 +4,11 @@ sudo apt-get update;
 sudo apt-get upgrade -y;
 sudo apt-get install mc -y;
 
+sudo add-apt-repository ppa:openjdk-r/ppa -y;
+sudo apt-get update;
+
+sudo apt-get install openjdk-8-jdk -y;
+
 
 sudo apt-get install \
     linux-image-extra-$(uname -r) \
@@ -31,6 +36,8 @@ sudo apt-get update;
 sudo apt-get upgrade -y;
 
 sudo apt-get install docker-ee docker-ee-cli containerd.io -y
+
+sudo usermod -aG docker $USER
 
 sudo systemctl start docker
 sudo systemctl enable docker
