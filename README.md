@@ -18,4 +18,4 @@ Here, you can overview little docker-swarm project.
   * docker commands must run from sudo user without using sudo
   * this java project is being built by Maven builder, so you need to create a Maven builder in the Jenkins and use compile before docker stack deploy
 
-![Tools](https://user-images.githubusercontent.com/45104386/57587450-97019a00-750d-11e9-8859-0dce205375c4.jpg)
+![Tools](https://user-images.githubusercontent.com/45104386/57587646-ea291c00-7510-11e9-8bb1-d60467dfcc2f.jpg)
