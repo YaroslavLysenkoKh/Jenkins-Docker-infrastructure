@@ -1,7 +1,7 @@
 hosts = [
   { name: 'jenkinsmaster',   box: 'centos/7',	        mem: 1024, 	netint: 1 },
-  { name: 'swarmmaster',   box: 'ubuntu/trusty64',	mem: 2048,	netint: 2 },
-  { name: 'swarmslave1',   box: 'ubuntu/trusty64',	mem: 2048,	netint: 3 }
+  { name: 'swarmmaster',   box: 'ubuntu/trusty64',	mem: 4096,	netint: 2 },
+  { name: 'swarmslave1',   box: 'ubuntu/trusty64',	mem: 4096,	netint: 3 }
 ]
 
 
