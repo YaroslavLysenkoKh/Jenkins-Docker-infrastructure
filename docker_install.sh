@@ -15,7 +15,7 @@ sudo apt-get install \
     linux-image-extra-virtual
 
 
-sudo apt-get install \
+sudo apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
