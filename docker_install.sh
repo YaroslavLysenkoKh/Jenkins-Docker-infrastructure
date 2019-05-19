@@ -15,12 +15,7 @@ sudo apt-get install \
     linux-image-extra-virtual
 
 
-sudo apt-get install -y \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg-agent \
-    software-properties-common
+sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common;
 
 DOCKER_EE_URL="https://storebits.docker.com/ee/trial/sub-b72071cf-9849-4974-b123-028f5f94977a";
 DOCKER_EE_VERSION=18.09;
